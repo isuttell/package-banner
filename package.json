@@ -2,7 +2,7 @@
   "name": "package-banner",
   "version": "0.1.0",
   "description": "Generates a fancy banner from a package.json file",
-  "main": "index.js",
+  "main": "lib/PackageBanner.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
