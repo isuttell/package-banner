@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Generates a fancy banner from a package.json file",
   "main": "lib/PackageBanner.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/isuttell/package-banner"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
