@@ -1,6 +1,12 @@
 # package-banner
 Generates a fancy banner from a package.json file
 
+## Install
+
+```shell
+npm install package-banner --save-dev
+```
+
 ## Usage
 
 ```js
@@ -37,7 +43,7 @@ var banner = new PackageBanner({
   pkg: 'package.json',
 
   /**
-   * ASCII Font to use
+   * ASCII Font to use. See below for more options.
    * @type    {String}
    */
   font: 'graffiti',
@@ -81,6 +87,16 @@ var banner = new PackageBanner({
 }).build();
 
 ```
+
+## Fonts
+
+You can get a list of fonts with a preview of each by running:
+
+```shell
+node ./node_modules/package-banner/bin/fonts.js
+```
+
+From the command line of your project.
 
 ## License
 The MIT License (MIT)
