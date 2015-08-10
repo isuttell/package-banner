@@ -1,5 +1,9 @@
 # package-banner
-Generates a fancy banner from a package.json file
+
+![npm version](https://img.shields.io/npm/v/package-banner.svg?style=flat)
+![dependencies](https://img.shields.io/david/isuttell/package-banner.svg?style=flat)
+
+Generates a banner from a package.json file. 
 
 ## Install
 
