@@ -1,6 +1,6 @@
 {
   "name": "package-banner",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generates a fancy banner from a package.json file",
   "main": "lib/PackageBanner.js",
   "repository" : {
