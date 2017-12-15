@@ -1,4 +1,4 @@
-# package-banner
+# ship-components-banner
 
 [![npm version](https://img.shields.io/npm/v/ship-components-banner.svg?style=flat)](https://www.npmjs.com/package/ship-components-banner)
 [![dependencies](https://img.shields.io/david/ship-components/ship-components-banner.svg?style=flat)](https://david-dm.org/ship-components/ship-components-banner)
@@ -8,7 +8,7 @@ Generates a banner from a package.json file.
 ## Install
 
 ```shell
-npm install package-banner --save-dev
+npm install ship-components-banner --save-dev
 ```
 
 ## Usage
@@ -19,14 +19,16 @@ var ShipComponentsBanner = require('ship-components-banner');
 // Basic Usage
 var banner = new ShipComponentsBanner().build();
 
+console.log(banner);
+
 /*!
- *                      __                                   ___.
- * ___________    ____ |  | _______     ____   ____          \_ |__ _____    ____   ____   ___________
- * \____ \__  \ _/ ___\|  |/ /\__  \   / ___\_/ __ \   ______ | __ \\__  \  /    \ /    \_/ __ \_  __ \
- * |  |_> > __ \\  \___|    <  / __ \_/ /_/  >  ___/  /_____/ | \_\ \/ __ \|   |  \   |  \  ___/|  | \/
- * |   __(____  /\___  >__|_ \(____  /\___  / \___  >         |___  (____  /___|  /___|  /\___  >__|
- * |__|       \/     \/     \/     \//_____/      \/              \/     \/     \/     \/     \/
- * package-banner 0.1.0
+ * ___.
+ * \_ |__ _____    ____   ____   ___________
+ *  | __ \\__  \  /    \ /    \_/ __ \_  __ \
+ *  | \_\ \/ __ \|   |  \   |  \  ___/|  | \/
+ *  |___  (____  /___|  /___|  /\___  >__|
+ *      \/     \/     \/     \/     \/
+ * ship-components-banner X.X.X
  * Description: Generates a fancy banner from a package.json file
  * Author: Isaac Suttell <isaac.suttell@sony.com>
  * License: MIT
@@ -97,7 +99,7 @@ var banner = new ShipComponentsBanner({
 You can get a list of fonts with a preview of each by running:
 
 ```shell
-node ./node_modules/package-banner/bin/fonts.js
+$ npm run fonts
 ```
 
 From the command line of your project.

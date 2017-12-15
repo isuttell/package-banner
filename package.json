@@ -1,21 +1,22 @@
 {
   "name": "ship-components-banner",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Generates a fancy banner from a package.json file",
-  "main": "lib/PackageBanner.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ship-components/ship-components-banner"
   },
   "scripts": {
     "lint": "eslint lib/",
+    "fonts": "./bin/fonts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Isaac Suttell <isaac.suttell@sony.com>",
   "license": "MIT",
   "dependencies": {
     "figlet": "^1.1.1",
-    "lodash": "^3.10.0"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
