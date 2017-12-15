@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var PackageBanner = require('../');
+var PackageBanner = require('../lib/PackageBanner');
 
 var result = new PackageBanner().fonts();
 
