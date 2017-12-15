@@ -8,6 +8,7 @@
     "url": "https://github.com/ship-components/ship-components-banner"
   },
   "scripts": {
+    "lint": "eslint lib/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Isaac Suttell <isaac.suttell@sony.com>",
@@ -15,5 +16,9 @@
   "dependencies": {
     "figlet": "^1.1.1",
     "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-ship-components-base": "^1.1.0"
   }
 }
