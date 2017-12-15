@@ -1,7 +1,7 @@
 # package-banner
 
-[![npm version](https://img.shields.io/npm/v/package-banner.svg?style=flat)](https://www.npmjs.com/package/package-banner)
-[![dependencies](https://img.shields.io/david/isuttell/package-banner.svg?style=flat)](https://david-dm.org/isuttell/package-banner)
+[![npm version](https://img.shields.io/npm/v/ship-components-banner.svg?style=flat)](https://www.npmjs.com/package/ship-components-banner)
+[![dependencies](https://img.shields.io/david/ship-components/ship-components-banner.svg?style=flat)](https://david-dm.org/ship-components/ship-components-banner)
 
 Generates a banner from a package.json file.
 
@@ -14,10 +14,10 @@ npm install package-banner --save-dev
 ## Usage
 
 ```js
-var PackageBanner = require('package-banner');
+var ShipComponentsBanner = require('ship-components-banner');
 
 // Basic Usage
-var banner = new PackageBanner().build();
+var banner = new ShipComponentsBanner().build();
 
 /*!
  *                      __                                   ___.
@@ -28,7 +28,7 @@ var banner = new PackageBanner().build();
  * |__|       \/     \/     \/     \//_____/      \/              \/     \/     \/     \/     \/
  * package-banner 0.1.0
  * Description: Generates a fancy banner from a package.json file
- * Author: Isaac Suttell <isaac@isaacsuttell.com>
+ * Author: Isaac Suttell <isaac.suttell@sony.com>
  * License: MIT
  */
 
@@ -37,9 +37,9 @@ var banner = new PackageBanner().build();
 ## Options
 
 ```js
-var PackageBanner = require('package-banner');
+var ShipComponentsBanner = require('ship-components-banner');
 
-var banner = new PackageBanner({
+var banner = new ShipComponentsBanner({
   /**
    * Either takes a path or an object. It defaults to the package.json in your process.cwd()
    * @type    {String|Object}
@@ -103,9 +103,10 @@ node ./node_modules/package-banner/bin/fonts.js
 From the command line of your project.
 
 ## License
+
 The MIT License (MIT)
 
-Copyright (c) 2015 Isaac Suttell
+Copyright (c) 2017 SHIP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
