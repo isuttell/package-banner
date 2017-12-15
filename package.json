@@ -1,16 +1,16 @@
 {
-  "name": "package-banner",
-  "version": "0.1.2",
+  "name": "ship-components-banner",
+  "version": "0.2.0",
   "description": "Generates a fancy banner from a package.json file",
   "main": "lib/PackageBanner.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/isuttell/package-banner"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ship-components/ship-components-banner"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Isaac Suttell <isaac@isaacsuttell.com>",
+  "author": "Isaac Suttell <isaac.suttell@sony.com>",
   "license": "MIT",
   "dependencies": {
     "figlet": "^1.1.1",
