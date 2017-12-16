@@ -52,7 +52,7 @@ var banner = new ShipComponentsBanner({
    * ASCII Font to use. See below for more options.
    * @type    {String}
    */
-  font: 'graffiti',
+  font: 'Graffiti',
 
   /**
    * Should an ascii art title be generated?
