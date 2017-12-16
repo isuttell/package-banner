@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var PackageBanner = require('../lib/PackageBanner');
+var ShipComponentsBanner = require('../lib/');
 
-var result = new PackageBanner().fonts();
+var result = new ShipComponentsBanner().fonts();
 
 console.log(result);
