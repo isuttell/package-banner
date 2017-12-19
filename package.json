@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint lib/",
     "fonts": "./bin/fonts.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && jest --coverage"
   },
   "author": "Isaac Suttell <isaac.suttell@sony.com>",
   "license": "MIT",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "^4.13.1",
-    "eslint-config-ship-components-base": "^1.1.0"
+    "eslint-config-ship-components-base": "^1.1.0",
+    "jest": "^21.2.1"
   }
 }

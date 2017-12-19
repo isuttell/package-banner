@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var ShipComponentsBanner = require('../lib/PackageBanner');
+var ShipComponentsBanner = require('../lib/');
 
 // Basic Usage
 var banner = new ShipComponentsBanner().build();
