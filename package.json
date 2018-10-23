@@ -16,10 +16,10 @@
   "license": "MIT",
   "dependencies": {
     "figlet": "^1.1.1",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "eslint": "^4.13.1",
+    "eslint": "^5.7.0",
     "eslint-config-ship-components-base": "^1.1.0",
     "jest": "^21.2.1"
   }
