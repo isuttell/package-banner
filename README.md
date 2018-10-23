@@ -1,7 +1,7 @@
 # ship-components-banner
 
 [![npm version](https://img.shields.io/npm/v/ship-components-banner.svg?style=flat)](https://www.npmjs.com/package/ship-components-banner)
-[![dependencies](https://img.shields.io/david/ship-components/ship-components-banner.svg?style=flat)](https://david-dm.org/ship-components/ship-components-banner)
+[![dependencies](https://img.shields.io/david/ship-components/ship-components-banner.svg?style=flat)](https://david-dm.org/ship-components/ship-components-banner) [![Greenkeeper badge](https://badges.greenkeeper.io/ship-components/ship-components-banner.svg)](https://greenkeeper.io/)
 
 Generates a banner from a package.json file.
 
