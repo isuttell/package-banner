@@ -21,6 +21,6 @@
   "devDependencies": {
     "eslint": "^5.7.0",
     "eslint-config-ship-components-base": "^1.1.0",
-    "jest": "^21.2.1"
+    "jest": "^23.6.0"
   }
 }
