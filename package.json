@@ -1,6 +1,6 @@
 {
   "name": "ship-components-banner",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Generates a fancy banner from a package.json file",
   "main": "lib/index.js",
   "repository": {
